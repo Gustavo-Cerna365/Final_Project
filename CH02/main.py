@@ -48,5 +48,5 @@ def rank_artists(plays):
 
 # Test Cases
 if __name__ == "__main__":
-  print(selection_sort([5, 3, 6, 2, 10]))  # Expected: [2, 3, 5, 6, 10]
+  print(selection_sort([5, 3, 6, 2, 10, 13, 9, 7, 22, 74, 56, 33, 11, 88]))  # Expected: [2, 3, 5, 6, 7, 9, 10, 11, 13, 22, 33, 56, 74, 88]
   print(rank_artists({'Artist A': 100, 'Artist B': 200, 'Artist C': 150}))  # Expected: ['Artist B', 'Artist C', 'Artist A']
