@@ -45,3 +45,8 @@ def rank_artists(plays):
         result.append(largest_pair[0])
 
     return result
+
+# Test Cases
+if __name__ == "__main__":
+  print(selection_sort([5, 3, 6, 2, 10]))  # Expected: [2, 3, 5, 6, 10]
+  print(rank_artists({'Artist A': 100, 'Artist B': 200, 'Artist C': 150}))  # Expected: ['Artist B', 'Artist C', 'Artist A']
