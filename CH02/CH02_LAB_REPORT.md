@@ -4,14 +4,16 @@
 
 The selection sort test has yielded the following sorted list:
 
-```[2, 3, 5, 6, 7, 9, 10, 11, 13, 22, 33, 56, 74, 88]
+```
+[2, 3, 5, 6, 7, 9, 10, 11, 13, 22, 33, 56, 74, 88]
 
-```['Artist B', 'Artist C', 'Artist A']
+['Artist B', 'Artist C', 'Artist A']
+```
 
 ## Reflection Questions
 
 1. **Explain selection sort to someone who has never programmed.**
-   - *Sorting a hand of cards, or picking players for a team, both work.*
+
    
    Let's say that you have a set of 5 cards, each numbered 5, 3, 7, 9, 1, and you need to sort the cards
    from smallest to biggest. Look through the set to find the smallest number that has not been moved
@@ -21,7 +23,8 @@ The selection sort test has yielded the following sorted list:
    sorting with the set arranged into 1, 3, 5, 7, 9. This is the process that is Selection Sort.
 
 2. **Your list gets twice as long. Does selection sort do twice the work, or more?**
-   - *Answer from what your code does — how many passes, and how much each pass looks at.*
+
+
    If the list doubles, Selection sort would do more than double the amount of work needed. With about 
    5 items in a list, there would be about 5+4+3+2+1 checks, totaling about 15 checks, as each time you 
    check the items in a list, you would have to check the other cards again to see which one meets the 
@@ -30,6 +33,8 @@ The selection sort test has yielded the following sorted list:
    +2+1 checks, or a total of 55 checks, compared to the 15 checks with only 5 items
 
 3. **Chapter 2 says arrays are used more often than linked lists in practice. Based on what you built, why would that be?**
+
+
 Arrays are much quicker in reading compared to the ever rapidly expanding number of operations 
 needed to sort a list out using linked list, since a linked list would go through every item on the 
 list one by one in the order that they are placed, while Arrays can go at it from any specific 
