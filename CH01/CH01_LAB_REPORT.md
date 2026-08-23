@@ -1,7 +1,5 @@
 # Lab Report — Chapter 1: Binary Search
 
-*Complete both sections and commit this file with your code.*
-
 ## Test Results
 
 Linear search for 67:
