@@ -1,10 +1,7 @@
 # Lab Report — Chapter 4: Quicksort
 
-*Complete both sections and commit this file with your code.*
-
 ## Test Results
 
-*Paste your benchmark table — all six rows, including any `RecursionError`.*
 
 ```
 Part 1: Divide & Conquer warm-ups
