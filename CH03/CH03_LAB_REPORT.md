@@ -1,6 +1,5 @@
 # Lab Report — Chapter 3: Recursion
 
-*Complete both sections and commit this file with your code.*
 
 ## Test Results
 
